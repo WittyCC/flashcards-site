@@ -1,1 +1,19 @@
+#jsdef, #opdef, #variabledef, #conventiondef, #functiondef, #methoddef, #argspardef, #returndef{
+  display: none;
+}
 
+li:nth-of-type(odd) {
+  cursor: pointer;
+  color: #0088cc;
+  font-family: Tahoma;
+  font-size: 18px;
+}
+
+.word:hover {
+  text-decoration: underline;
+}
+
+li:nth-of-type(even) {
+  font-size: 18px;
+  color: green;
+}
